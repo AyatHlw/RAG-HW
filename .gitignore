@@ -6,6 +6,7 @@ __pycache__/
 *.pyc
 
 vectorstore/
+vectorstore_static/
 temp_upload/
 
 data/

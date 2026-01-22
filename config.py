@@ -5,6 +5,8 @@ load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
+STATIC_DB_PATH = "vectorstore_static"
+STATIC_SOURCE_FOLDER = "data/neural_networks"
 DATA_PATH = "data"
 DB_PATH = "vectorstore"
 TEMP_UPLOAD_FOLDER = "temp_upload"
